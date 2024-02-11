@@ -37,11 +37,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<a href="https://studyboat.netlify.app">
+<a>
     <img src="frontend/app/src/assets/Logofull.png" alt="Logo">
 </a>
 
-The project is designed for food allergy identification, leveraging state-of-the-art Deep Neural Network (DNN) models to classify images associated with food products. With a primary goal of enhancing food safety, the system aids in automating the detection of potential allergens in various food items, contributing to the prevention of allergic reactions.
+The project is designed for food allergy identification, leveraging state-of-the-art Convolutional Neural Network (CNN) models to classify images associated with food products, along with the GPT API to gauge symptoms of allergies. With a primary goal of enhancing food safety, the system aids in automating the detection of potential allergens in various food items, contributing to the prevention of allergic reactions.
 
 ## Key Features:
 
@@ -78,8 +78,8 @@ In summary, the project serves as a sophisticated tool for automating the detect
 
  ### Accomplishments
 
-* Deployed to production (Access at https://studyboat.netlify.app)
-* High scalability due to GPT API
+* Currenty being deployed to production
+* High scalability due to GPT API and use of CNN
 * Powerful and light notes generating AI/Machine Learning Model
 
 
@@ -165,7 +165,6 @@ See the [open issues](https://github.com/nkgroot2007/AllergEase/issues) for a fu
 * Shlesh Sakpal - [LinkedIn](https://www.linkedin.com/in/shlesh/) - shleshsakpal@gmail.com
 
 * Project Link: [https://github.com/nkgroot2007/AllergEase](https://github.com/nkgroot2007/AllergEase)
-* Project Demo: [https://studyboat.netlify.app/](https://studyboat.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
