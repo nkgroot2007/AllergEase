@@ -1,4 +1,4 @@
-import "./symptoms.css";
+import "./Image.css";
 import { React, useState } from "react";
 
 export default function Symptoms() {
