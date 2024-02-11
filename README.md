@@ -135,7 +135,6 @@ _Below is an example of how you can instruct your audience on installing and set
 ## Usage
 
 * Follow the text inputs on the web page and get results immediately
-* Project demo available at [https://studyboat.netlify.app](https://studyboat.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
