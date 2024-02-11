@@ -6,7 +6,6 @@
 <div align="center">
 
   <h3 align="center">AllergEase - Your Personal Allergy Detection Assistant</h3>
-  <img src="frontend/app/src/assetsassets/outline.png" alt="Logo">
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -56,6 +55,10 @@ Implements robust image preprocessing techniques to ensure standardized input fo
 
 ### Data Sets and Training:
 Leverages diverse datasets, including reports from Massachusetts General Hospital and Brigham and Women's Hospital, to train and validate the DNN model. This comprehensive approach ensures the model's proficiency in identifying allergens across various contexts.
+
+ ### Application Architecture
+
+<img src="https://github.com/nkgroot2007/AllergEase/blob/master/assets/outline.png" alt="Outline">
 
 ### Generalizability and Reproducibility Testing:
 Evaluates the model's generalizability to new cases within the same hospital and reproducibility when applied to data from a different hospital. This extensive testing enhances the reliability of the system.
