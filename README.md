@@ -13,16 +13,16 @@
   <p align="center">
     StudyBoat is designed for users!
     <br />
-    <a href="https://github.com/Rohit-K814307/StudyBoat"><strong>Explore the docs »</strong></a>
+    <a href="(https://github.com/nkgroot2007/AllergEase"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://studyboat.netlify.app">View Demo</a>
     ·
     <a href="https://youtu.be/_LadkF_pGNA">Video Presentation</a>
     ·
-    <a href="https://github.com/Rohit-K814307/StudyBoat/issues">Report Bug</a>
+    <a href="https://github.com/nkgroot2007/AllergEase/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Rohit-K814307/StudyBoat/issues">Request Feature</a>
+    <a href="https://github.com/nkgroot2007/AllergEase/issues">Request Feature</a>
   </p>
 </div>
 
@@ -127,7 +127,7 @@ _Below is an example of how you can instruct your audience on installing and set
 1. Get a free API Key at [https://openai.com/blog/openai-api](https://openai.com/blog/openai-api)
 2. Clone the repo
    ```sh
-   git clone https://github.com/Rohit-K814307/StudyBoat.git
+   git clone https://github.com/nkgroot2007/AllergEase.git
    ```
 3. Install NPM packages
    ```sh
@@ -163,7 +163,7 @@ _Below is an example of how you can instruct your audience on installing and set
     - [ ] UI
     - [ ] Better Model
 
-See the [open issues](https://github.com/Rohit-K814307/StudyBoat/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/nkgroot2007/AllergEase/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
