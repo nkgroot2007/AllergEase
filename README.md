@@ -4,9 +4,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://studyboat.netlify.app">
-    <img src="https://github.com/nkgroot2007/AllergEase/blob/master/assets/home.png" alt="Logo">
-  </a>
 
   <h3 align="center">AllergEase - Your Personal Allergy Detection Assistant</h3>
 
@@ -58,7 +55,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="frontend/app/src/assets/Logofull.png" alt="Logo">
+<a href="https://studyboat.netlify.app">
+    <img src="frontend/app/src/assets/Logofull.png" alt="Logo">
+</a>
 
 The project is designed for food allergy identification, leveraging state-of-the-art Deep Neural Network (DNN) models to classify images associated with food products. With a primary goal of enhancing food safety, the system aids in automating the detection of potential allergens in various food items, contributing to the prevention of allergic reactions.
 
