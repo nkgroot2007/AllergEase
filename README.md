@@ -119,7 +119,7 @@ In summary, the project serves as a sophisticated tool for automating the detect
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Get started with Study Boat
+Get started with AllergEase
 
 ### Prerequisites
 
