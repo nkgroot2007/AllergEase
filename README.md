@@ -60,26 +60,35 @@
 
 <img src="frontend/app/src/assets/Logofull.png" alt="Logo">
 
-StudyBoat is a personal study tool designed to help you with your educational needs.
+The project is designed for food allergy identification, leveraging state-of-the-art Deep Neural Network (DNN) models to classify images associated with food products. With a primary goal of enhancing food safety, the system aids in automating the detection of potential allergens in various food items, contributing to the prevention of allergic reactions.
 
-Main Features:
+## Key Features:
 
-* Essay Feedback Tool
+### Automated Allergen Detection:
+The core functionality revolves around the automated identification of potential allergens present in food products.
+Deep Learning Architecture:
+Utilizes a Convolutional Neural Network (CNN) architecture, specifically a Deep Neural Network (DNN) model, to effectively learn and recognize patterns associated with allergenic ingredients in images.
 
-    Our essay feedback tool leverages the OpenAI GPT API to query the model and recieve immediate feedback on your essay. Then, StudyBoat
-    displays the results intuitively on the application for users to read. The application also queries the GPT API to rewrite the portions
-    of the essay with mistakes to improve them, serving them back to the user.
+### Image Preprocessing:
+Implements robust image preprocessing techniques to ensure standardized input for the model, enhancing the accuracy and reliability of allergen identification.
 
-* Flashcard Study Tool
+### Data Sets and Training:
+Leverages diverse datasets, including reports from Massachusetts General Hospital and Brigham and Women's Hospital, to train and validate the DNN model. This comprehensive approach ensures the model's proficiency in identifying allergens across various contexts.
 
-    Our flashcard study tool also leverages the OpenAI GPT API to query the model and serve flashcards on any topic. StudyBoat dynamically
-    renders flashcards from the queried GPT API and allows the user to flip the flashcards for answers, view more flashcards, and view the 
-    previous flashcard.
+### Generalizability and Reproducibility Testing:
+Evaluates the model's generalizability to new cases within the same hospital and reproducibility when applied to data from a different hospital. This extensive testing enhances the reliability of the system.
 
-* Notes Summarizer
-    
-    StudyBoat utilizes a custom TF-ID4 model to summarize notes based on input text. It finds the words of highest value in the text, and
-    strings them together to build a summary.
+### Severity Classification:
+Includes a severity classification mechanism to categorize allergic events into different levels, providing additional insights into the potential harm associated with identified allergens.
+
+### Attention Mechanism Interpretation:
+Incorporates an attention-based DNN layer that assigns weights to individual words, aiding in the interpretation of the model's predictions. High-attention words contribute to the extraction of meaningful insights.
+
+### Comparison with Keyword-Search Approach:
+Compares the performance of the deep learning approach with a conventional keyword-search method in terms of manual review effort and positive case yield, contributing to a holistic assessment of the system's effectiveness.
+
+In summary, the project serves as a sophisticated tool for automating the detection of allergens in food items, offering a valuable contribution to food safety practices and the prevention of allergic reactions. Its features encompass advanced deep learning techniques, extensive testing, and interpretability mechanisms, ensuring a robust and reliable solution for allergen identification.
+
 
 
  ### Application Architecture
