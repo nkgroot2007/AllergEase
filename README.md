@@ -6,7 +6,7 @@
 <div align="center">
 
   <h3 align="center">AllergEase - Your Personal Allergy Detection Assistant</h3>
-  <img src="assets/outline.png" alt="Logo">
+  <img src="frontend/app/src/assetsassets/outline.png" alt="Logo">
 
 <!-- TABLE OF CONTENTS -->
 <details>
