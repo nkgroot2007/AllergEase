@@ -199,10 +199,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-* Rohit Kulkarni - [LinkedIn](https://www.linkedin.com/in/rohit-kulkarni-305a86202/) - kulkarni.rohitva@gmail.com
+* Nikhil Kumar - [LinkedIn](https://www.linkedin.com/in/rohit-kulkarni-305a86202/) - nkgroot2007@gmail.com
 * Shlesh Sakpal - [LinkedIn](https://www.linkedin.com/in/shlesh/) - shleshsakpal@gmail.com
 
-* Project Link: [https://github.com/Rohit-K814307/StudyBoat](https://github.com/Rohit-K814307/StudyBoat)
+* Project Link: [https://github.com/nkgroot2007/AllergEase](https://github.com/nkgroot2007/AllergEase)
 * Project Demo: [https://studyboat.netlify.app/](https://studyboat.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
