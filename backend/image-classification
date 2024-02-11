@@ -1,0 +1,73 @@
+import pandas as pd
+import numpy as np
+import cv2
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
+from tensorflow.keras.optimizers import Adam
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import LabelEncoder
+import os  # Import os module to work with file paths
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+# Load the CSV file containing class labels
+test_annotations = pd.read_csv('/content/drive/My Drive/food-allergy-identification/dataset/test-annotations.csv')
+
+# Extract filenames and corresponding class labels
+filenames = test_annotations['filename']
+class_labels = test_annotations['class']
+
+# Define a function to load and preprocess images
+def load_and_preprocess_images(filenames, folder_path, class_labels):
+    images = []
+    labels = []
+    for filename, class_label in zip(filenames, class_labels):
+        # Construct the full path to the image file
+        file_path = os.path.join(folder_path, filename)
+        # Read the image using OpenCV
+        image = cv2.imread(file_path)
+        if image is None:
+            print("Failed to read image:", file_path)
+            continue
+        # Resize the image to match the expected input shape of the model
+        image = cv2.resize(image, (224, 224))
+        # Optionally preprocess the image here
+        images.append(image)
+        labels.append(class_label)
+    return np.array(images), np.array(labels)
+
+# Load and preprocess test images
+test_data_path = '/content/drive/My Drive/food-allergy-identification/dataset/test/'
+test_images, test_labels = load_and_preprocess_images(filenames, test_data_path, class_labels)
+
+# Ensure labels are properly encoded
+label_encoder = LabelEncoder()
+test_labels_encoded = label_encoder.fit_transform(test_labels)
+
+# Define CNN model
+model = Sequential([
+    Conv2D(32, (3, 3), activation='relu', input_shape=(224, 224, 3)),
+    MaxPooling2D((2, 2)),
+    Conv2D(64, (3, 3), activation='relu'),
+    MaxPooling2D((2, 2)),
+    Flatten(),
+    Dense(128, activation='relu'),
+    Dense(1, activation='sigmoid')  # Binary classification, so using sigmoid activation
+])
+
+# Compile the model
+model.compile(optimizer=Adam(),
+              loss='binary_crossentropy',
+              metrics=['accuracy'])
+
+# Evaluate the model
+test_loss, test_acc = model.evaluate(test_images, test_labels_encoded)
+print('Test accuracy:', 1 - test_acc)
+
+# Make predictions
+predictions = model.predict(test_images)
+predicted_labels = np.round(predictions).flatten().astype(int)
