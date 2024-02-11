@@ -208,7 +208,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-* Nikhil Kumar - [LinkedIn](https://www.linkedin.com/in/rohit-kulkarni-305a86202/) - nkgroot2007@gmail.com
+* Nikhil Kumar - [LinkedIn](https://www.linkedin.com/in/nikhil-kumar-599485285/) - nkgroot2007@gmail.com
 * Shlesh Sakpal - [LinkedIn](https://www.linkedin.com/in/shlesh/) - shleshsakpal@gmail.com
 
 * Project Link: [https://github.com/nkgroot2007/AllergEase](https://github.com/nkgroot2007/AllergEase)
