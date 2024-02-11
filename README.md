@@ -86,8 +86,8 @@ In summary, the project serves as a sophisticated tool for automating the detect
 
 ### Built With
 
-* [![React][React.js]][React-url]
-* <img src="https://blog.paperspace.com/content/images/2019/11/flasklogo.jpg" alt="flask" width="80" height="25" />
+* Google Colab
+* Netlify
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
