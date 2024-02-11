@@ -5,13 +5,13 @@
 <br />
 <div align="center">
   <a href="https://studyboat.netlify.app">
-    <img src="https://github.com/Rohit-K814307/StudyBoat/blob/master/assets/home.png" alt="Logo">
+    <img src="https://github.com/nkgroot2007/AllergEase/blob/master/assets/home.png" alt="Logo">
   </a>
 
-  <h3 align="center">StudyBoat - Your personal AI-Powered Study Assistant</h3>
+  <h3 align="center">AllergEase - Your Personal Allergy Detection Assistant</h3>
 
   <p align="center">
-    StudyBoat is designed for users!
+    AllergEase is designed for users!
     <br />
     <a href="(https://github.com/nkgroot2007/AllergEase"><strong>Explore the docs »</strong></a>
     <br />
