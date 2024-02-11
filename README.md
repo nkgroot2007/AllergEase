@@ -7,23 +7,6 @@
 
   <h3 align="center">AllergEase - Your Personal Allergy Detection Assistant</h3>
 
-  <p align="center">
-    AllergEase is designed for users!
-    <br />
-    <a href="(https://github.com/nkgroot2007/AllergEase"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://studyboat.netlify.app">View Demo</a>
-    ·
-    <a href="https://youtu.be/_LadkF_pGNA">Video Presentation</a>
-    ·
-    <a href="https://github.com/nkgroot2007/AllergEase/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/nkgroot2007/AllergEase/issues">Request Feature</a>
-  </p>
-</div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
